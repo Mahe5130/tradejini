@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Tradejini</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Tradejini">
+    <meta name="keywords"
+      content="Trading, Forex, Cryptocurrency, Investment, Financial, Brokers">
+    <meta name="author" content="DiscreteDev">
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title"
+      content="Tradejini - for Trading, Forex, Cryptocurrency, and Investment">
+    <meta property="og:description"
+      content="Tradejini">
+    <meta property="og:image" content="assets/img/og.png">
+    <meta property="og:url">
+    <meta property="og:type" content="website">
+ 
+  
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/img/site-logo/favicon.png">
+  
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/icons.css">
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/animate.css">
+    <!--  slick css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/swiper-bundle.min.css">
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/magnific-popup.css">
+    <!-- metis menu css file -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/metismenu.css">
+    <!--  lightcase css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/lightcase.css">
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css">
+    <!--  main style css file -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css">
+  
+    <script>
+      function validateForm() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
+  
+        if (name === "" || email === "" || subject === "" || message === "") {
+          alert("Please fill out all fields.");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  
+  </head>
+  <body class="body-wrapper">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/script.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/js/modernizr.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/jquery.easing.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/isotope.pkgd.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/imageload.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/scrollUp.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/swiper-bundle.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/magnific-popup.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/wow.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/metismenu.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/lightcase.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/active.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/js/custom.js"></script>
+  </body>
+</html>
