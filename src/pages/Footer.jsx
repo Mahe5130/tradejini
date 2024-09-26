@@ -11,7 +11,7 @@ function Footer() {
                 <div class="single-footer-widget wow fadeInLeft">
                   <div class="about-us-widget">
                     <a href="index.html" class="footer-logo d-block">
-                    <img src="assets/img/logo-img.svg" alt="Tradejini Logo"  style={{ filter: 'brightness(0) invert(1)' }}  />
+                    <img src="assets/img/download.svg" alt="Tradejini Logo" />
                     </a>
                     <p>
                       Lorem ipsum dolor sit amet, cons atetur adipisicing elit.

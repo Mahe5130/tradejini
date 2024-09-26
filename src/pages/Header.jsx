@@ -27,7 +27,7 @@ function Header() {
               <div class="logo">
                 <Link to={"/"}>
               
-                  <img src="assets/img/logo-img.svg" alt="Tradejini Logo"  style={{ filter: 'brightness(0) invert(1)' }}  />
+                  <img src="assets/img/download.svg" alt="Tradejini Logo" />
                   </Link>
               </div>
             </div>
